@@ -6,7 +6,7 @@ class CoffeeMachine:
         self.milk_available = 540
         self.beans_available = 120
 
-    def is_sufficient(self, w=0, m=0, b=0, c=0):
+    def is_sufficient(self, w=0, m=0, b=0, c=1):
         ret = True
         if self.water_available < w:
             print("Sorry, not enough water!")
